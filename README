@@ -1,0 +1,22 @@
+This C++ source code was used to produce the results described in the 
+article "The global spread of drug-resistant influenza", published
+by the Journal of the Royal Society Interface. Much of the model was
+based on our previous work described in: 
+Kenah E, Chao DL, Matrajt L, Halloran ME, Longini IM Jr (2011) The 
+Global Transmission and Control of Influenza. PLoS ONE 6(5): e19515. 
+doi:10.1371/journal.pone.0019515
+
+The Makefile can be used to produce two executables: global, which
+runs the model and produces simulated daily output, and yearlyglobal, 
+which produces output only once per simulation year. I apologize for
+the lack of documentation - please contact me if you need assistance.
+
+Both programs requires the GNU Scientific library 
+(http://www.gnu.org/software/gsl/) to compile.
+
+This work is released under the GPLv3 (see gpl.txt or 
+http://www.gnu.org/licenses/gpl-3.0.html).
+
+Dennis Chao
+dchao@fhcrc.org
+July 26, 2011
